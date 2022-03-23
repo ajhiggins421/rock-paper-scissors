@@ -14,13 +14,13 @@ function getInput() {
 function play(computerChoice, playerChoice){
     let winLoseOrTie;
     if(choices.includes(playerChoice)){
+
         if(computerChoice == playerChoice){
             winLoseOrTie = "tie"
         }
 
-        else if((computerChoice == "rock" && playerChoice == "scissors") || (computerChoice == "paper" && playerChoice =="rock") 
-        || (computerChoice == "scissors" && playerChoice == "paper"))
-        {
+        else if((computerChoice == "rock" && playerChoice == "scissors") || (computerChoice == "paper" && playerChoice =="rock") || 
+                (computerChoice == "scissors" && playerChoice == "paper")){
             winLoseOrTie = "lose";
             compScore++;
         }
