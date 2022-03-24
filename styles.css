@@ -1,0 +1,81 @@
+body, html {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    min-height: 100%;
+    background-color: #474747;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+
+}   
+
+.content {
+    background-color: rgb(83, 117, 211);
+    min-height: 600px;
+    min-width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+.info h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    display: flex;
+    gap: 10px
+
+}
+h3 {
+    color: whitesmoke;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 16px;
+    border: 1px solid white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 1px black;
+
+}
+
+.header h1 {
+    font-size: 60px;
+    margin: 0px
+    
+}
+
